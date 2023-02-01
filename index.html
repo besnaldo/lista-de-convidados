@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<link rel="stylesheet" type ="text/css" href="style.css"> 
+
+
+
+
+
+
+</head>
+<body>
+
+<h1>Lista de convidados</h1>
+
+<input type="text"id= cubomagico>
+<button onclick="enviar()">
+enviar
+</button>
+<h1>ordem alfabetica</h1>
+<hr>
+<p id="joão"></p>
+<hr>
+<p id="josé">
+
+</p>
+<hr>
+<script>
+var clebinho = []
+var cletao = []
+var matriz2= [] 
+function enviar ( ){var rafael = document.getElementById("cubomagico").value
+clebinho.push(rafael)
+document.getElementById("joão").innerHTML=clebinho
+matriz2= clebinho.sort()
+
+  document.getElementById("josé").innerHTML=matriz2
+document.getElementById("cubomagico").innerHTML=""
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
